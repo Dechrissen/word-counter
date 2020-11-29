@@ -1,4 +1,6 @@
-# Document Word Counter
+# word-counter
+
+Displays the top 20 most used words and their counts for a given document.
 
 ## Requirements
 
