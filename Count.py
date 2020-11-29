@@ -4,6 +4,8 @@ import nltk
 from nltk.corpus import stopwords
 from collections import Counter
 
+nltk.download('stopwords')
+
 def remove_punctuation(text):
     return re.sub(r'[^\w\s]','', text).lower()
 
